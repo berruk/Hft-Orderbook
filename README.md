@@ -1,6 +1,4 @@
 # Hft-Orderbook
-To run : <br />
-gcc -ggdb -O0 parser.c orderbook.c linkedlist.c rbt.c maxminheap.c ip.c -o parser -lpcap <br />
 
 ## Comparison of data structures' performances as a container for an HFT Orderbook.
 Parsing Borsa Istanbul orders captured in a pcap file with Wireshark, then using [ITCH protocol](https://www.borsaistanbul.com/files/bistech-itch-protocol-specification.pdf) and storing in 4 different containers to measure performance of each. <br />
